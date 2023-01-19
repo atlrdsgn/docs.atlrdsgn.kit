@@ -1,0 +1,13 @@
+{
+    "name": "docs.atlrdsgn.kit",
+    "packageManager": "yarn@3.2.2",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "install": "mintlify install",
+        "dev": "mintlify dev"
+    },
+    "dependencies": {
+        "mintlify": "^1.2.0"
+    }
+}
