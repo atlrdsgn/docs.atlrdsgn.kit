@@ -32,17 +32,17 @@
     "anchors": [{
             "name": "Changelog",
             "icon": "list",
-            "url": "https://mintlify.com"
+            "url": "https://atlrdsgn.com"
         },
         {
             "name": "Community",
-            "icon": "discord",
-            "url": "https://mintlify.com/community"
+            "icon": "twitter",
+            "url": "https://twitter.com"
         },
         {
-            "name": "Primitives",
+            "name": "Contribute",
             "icon": "github",
-            "url": "https://mintlify.com/community"
+            "url": "https://github.com/atlrdsgn"
         }
     ],
     "navigation": [{
@@ -55,6 +55,7 @@
         {
             "group": "Get Started",
             "pages": [
+                "start/install",
                 "start/automatic-setup",
                 "start/manual-setup"
             ]
@@ -73,10 +74,6 @@
         {
             "group": "Learn More",
             "pages": ["features", "resources"]
-        },
-        {
-            "group": "API Documentation",
-            "pages": ["api-reference/authentication"]
         }
     ],
     "footerSocials": {
