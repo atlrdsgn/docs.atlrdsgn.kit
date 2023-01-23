@@ -2,20 +2,57 @@
 title: "Button"
 description: "A simple and performant button component."
 ---
-import {ButtonDemo} from '../components/demos'
 
-<ButtonDemo />
 
 ### Example
 
 ```tsx button.tsx
 import {Button} from '@atlr/kit'
+
+const App = () => (
+  <Button href="google.com" size="sm" primary>Click me</Button>
+)
 ```
+
+### Button Props
+
+<ParamField path="size" type="string | 'sm' | 'md' | 'lg'">
+  The size of the button
+
+  ```tsx
+  <Button size="sm">Click me</Button>
+  ```
+</ParamField>
+
+#### Variant Props
+
+<ParamField path="primary" type="boolean">
+  Renders a primary button
+</ParamField>
+<ParamField path="secondary" type="boolean">
+  Renders a secondary button
+</ParamField>
+<ParamField path="rainbow" type="boolean">
+  Renders a rainbow styled button
+</ParamField>
+<ParamField path="neon" type="boolean">
+  Renders a neon styled button
+</ParamField>
+<ParamField path="ghost" type="boolean">
+  Renders a ghost styled button
+</ParamField>
+
+
+
+
+
+
+
 
 ### Props
 
-| name   | type             | default                        |
-| ------ | ---------------- | ------------------------------ |
-| Name   | React.ReactNode  |                                |
-| Age    | boolean          |                                |
-| Joined | boolean          |                                |
+| name             | type             | default                        |
+| ---------------- | ---------------- | ------------------------------ |
+| children         | React.ReactNode  |                                |
+| size             | boolean          |                                |
+| neon             | boolean          |                                |

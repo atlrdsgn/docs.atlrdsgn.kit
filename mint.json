@@ -2,14 +2,19 @@
     "$schema": "https://mintlify.com/schema.json",
     "name": "Atelier® Kit",
     "logo": {
-        "dark": "/logo/dark.png",
-        "light": "/logo/light.png"
+        "dark": "/logo/dark.svg",
+        "light": "/logo/light.svg"
     },
+    "backgroundImage": "/images/bg.png",
     "favicon": "/favicon.png",
+
     "colors": {
         "primary": "#BE5BF1",
         "light": "#BA8FF7",
-        "dark": "#9113A4"
+        "dark": "#9113A4",
+        "background": {
+            "dark": "#0D1117"
+        }
     },
     "topbarLinks": [{
             "name": "Documentation",
@@ -21,8 +26,8 @@
         }
     ],
     "topbarCtaButton": {
-        "name": "Get Started",
-        "url": "https://github.com/mintlify/starter"
+        "name": "GitHub",
+        "url": "https://github.com/atlrdsgn/kit"
     },
     "anchors": [{
             "name": "Changelog",
@@ -42,12 +47,27 @@
     ],
     "navigation": [{
             "group": "Home",
-            "pages": ["introduction", "development"]
+            "pages": [
+                "introduction",
+                "development"
+            ]
+        },
+        {
+            "group": "Get Started",
+            "pages": [
+                "start/automatic-setup",
+                "start/manual-setup"
+            ]
         },
 
         {
-            "group": "Primitives",
-            "pages": ["primitives/button"]
+            "group": "UI Components",
+            "pages": [
+                "primitives/components",
+                "primitives/button",
+                "primitives/switch",
+                "primitives/container"
+            ]
         },
         {
             "group": "Learn More",

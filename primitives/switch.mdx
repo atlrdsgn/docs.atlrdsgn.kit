@@ -1,0 +1,36 @@
+---
+title: 'Switch'
+description: 'A simple and performant switch primitive.'
+---
+
+### Example
+
+```tsx switch.tsx
+import {Switch, SwitchThumb} from '@atlr/kit'
+
+const App = () => {
+  const [checked, setChecked] = React.useState(false)
+
+  return (
+    <form>
+      <Switch checked={checked} onChange={setChecked}>
+        <SwitchThumb />
+      </Switch>
+    </form>
+  )
+}
+```
+
+### Switch Props
+
+<ParamField path="size" type="string | 'sm' | 'md' | 'lg'">
+  The size of the button
+
+```tsx
+<Button size="sm">Click me</Button>
+```
+
+</ParamField>
+
+
+
