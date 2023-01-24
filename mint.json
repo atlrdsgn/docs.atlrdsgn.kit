@@ -5,7 +5,7 @@
         "dark": "/logo/dark.svg",
         "light": "/logo/light.svg"
     },
-    "backgroundImage": "/images/bg.png",
+
     "favicon": "/favicon.png",
 
     "colors": {
@@ -13,12 +13,12 @@
         "light": "#BA8FF7",
         "dark": "#9113A4",
         "background": {
-            "dark": "#0D1117"
+            "dark": "#1D1D1D"
         }
     },
     "topbarLinks": [{
             "name": "Documentation",
-            "url": "https://mintlify.com/docs"
+            "url": "https://docs.atlrdsgn.com"
         },
         {
             "name": "Twitter",
@@ -27,20 +27,15 @@
     ],
     "topbarCtaButton": {
         "name": "GitHub",
-        "url": "https://github.com/atlrdsgn/kit"
+        "url": "https://github.com/atlrdsgn/atelier.kit"
     },
     "anchors": [{
-            "name": "Changelog",
-            "icon": "list",
-            "url": "https://atlrdsgn.com"
-        },
-        {
             "name": "Community",
             "icon": "twitter",
-            "url": "https://twitter.com"
+            "url": "https://twitter.com/atlrdsgn"
         },
         {
-            "name": "Contribute",
+            "name": "GitHub",
             "icon": "github",
             "url": "https://github.com/atlrdsgn"
         }
@@ -49,22 +44,15 @@
             "group": "Home",
             "pages": [
                 "introduction",
-                "development"
-            ]
-        },
-        {
-            "group": "Get Started",
-            "pages": [
-                "start/install",
-                "start/automatic-setup",
-                "start/manual-setup"
+                "install",
+                "primitives/components"
             ]
         },
 
         {
-            "group": "UI Components",
+            "group": "Primitives",
             "pages": [
-                "primitives/components",
+                "primitives/accordion",
                 "primitives/button",
                 "primitives/switch",
                 "primitives/container",
@@ -77,8 +65,8 @@
         }
     ],
     "footerSocials": {
-        "twitter": "https://twitter.com/mintlify",
-        "github": "https://github.com/mintlify",
-        "linkedin": "https://www.linkedin.com/company/mintsearch"
+        "twitter": "https://twitter.com/atlrdsgn",
+        "github": "https://github.com/atlrdsgn",
+        "instagram": "https://instagram.com/atlr.dsgn"
     }
 }

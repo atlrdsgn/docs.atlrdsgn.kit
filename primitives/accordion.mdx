@@ -1,0 +1,46 @@
+---
+title: "Accordion"
+sidebarTitle: 'Accordion'
+description: "A simple and performant button component."
+---
+
+### Use it
+
+```tsx
+import {Accordion, AccordionTrigger, AccordionItem, AccordionContent} from 'atlr.kit'
+
+const App = () => (
+  <Accordion>
+    <AccordionItem value="acc-1">
+      <AccordionTrigger>Trigger</AccordionTrigger>
+      <AccordionContent>Content</AccordionContent>
+    </AccordionItem>
+  </Accordion>
+)
+```
+
+### Accordion Anatomy
+
+<ParamField path="Accordion" type="root">
+The root element of the accordion.
+</ParamField>
+
+<ParamField path="AccordionItem" type="item">
+Contains all the parts of a collapsible section.
+Use `value` to identify the item.
+</ParamField>
+
+<ParamField path="AccordionTrigger" type="HTMLButtonElement">
+Toggles the collapsed state of its associated item.
+</ParamField>
+
+<ParamField path="AccordionContent" type="HTMLDivElement">
+Contains the collapsible content for an item.
+</ParamField>
+
+### Accordion Props
+
+<ParamField path="defaultValue" type="string" />
+<ParamField path="onValueChange" type="function()" />
+<ParamField path="collapsible" type="boolean" />
+
