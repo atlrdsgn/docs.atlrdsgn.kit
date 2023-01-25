@@ -43,7 +43,7 @@
     "navigation": [{
             "group": "Home",
             "pages": [
-                "atart/introduction",
+                "start/introduction",
                 "start/install",
                 "primitives/components"
             ]
@@ -54,8 +54,10 @@
             "pages": [
                 "primitives/primitives",
                 "primitives/accordion",
+                "primitives/app.bar",
                 "primitives/button",
                 "primitives/container",
+                "primitives/pass.link",
                 "primitives/section",
                 "primitives/switch"
             ]

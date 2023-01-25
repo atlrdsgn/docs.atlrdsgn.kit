@@ -1,43 +1,65 @@
 ---
-title: 'Container'
-sidebarTitle: 'Container'
-description: 'A layout component that centers all the email content.'
-'og:image': 'https://react.email/static/covers/container.png'
+title: "Container"
+sidebarTitle: "Container"
+description: "A layout component that centers all the email content."
+"og:image": "https://react.email/static/covers/container.png"
 ---
 
-## Install
+#### Example Code
 
-Install component from your command line.
+```tsx button.tsx
+import { Container } from "atlr.kit";
 
-<CodeGroup>
-
-```sh npm
-npm install @react-email/container -E
+const App = () => (
+  <Container size="sm" align="center">
+    Proident reprehenderit proident labore.
+  </Container>
+);
 ```
 
-```sh yarn
-yarn add @react-email/container -E
+#### Container Props
+
+<ParamField path="size" type="string | 'sm' | 'md' | 'lg'">
+  The max width of the container.
+
+```tsx
+<Container size="sm">....</Container>
 ```
 
-</CodeGroup>
+</ParamField>
 
-## Getting started
+<ParamField path="align" type="'left' | 'center' | 'right' | string">
+  Alignment of the content inside the container.
 
-Add the component to your email template. Include styles where needed.
-
-```jsx
-import { Button } from '@react-email/button';
-import { Container } from '@react-email/container';
-
-const Email = () => {
-  return (
-    <Container>
-      <Button href="https://example.com" style={{ color: '#61dafb' }}>
-        Click me
-      </Button>
-    </Container>
-  );
-};
+```tsx
+<Container align="center">....</Container>
 ```
 
-<Snippet file="support.mdx" />
+</ParamField>
+
+<ParamField path="justify" type="'start' | 'center' | 'end' | string">
+  Justifying of the content inside the container.
+
+```tsx
+<Container align="center">....</Container>
+```
+
+</ParamField>
+
+<ParamField path="optimal" type="boolean">
+.....
+
+```tsx
+<Container optimal>....</Container>
+```
+
+</ParamField>
+
+<ParamField path="css" type="style prop">
+Custom CSS prop, to apply your own custom styles.
+
+```tsx
+<Container css={{ height: "auto" }}>....</Container>
+```
+
+</ParamField>

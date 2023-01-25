@@ -1,6 +1,6 @@
 {
     "name": "docs.atlrdsgn.kit",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "packageManager": "yarn@3.2.2",
     "private": true,
     "scripts": {

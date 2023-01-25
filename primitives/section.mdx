@@ -1,38 +1,76 @@
 ---
-title: 'Section'
-sidebarTitle: 'Section'
-description: 'A section component.'
+title: "Section"
+sidebarTitle: "Section"
+description: "A block element."
+"og:image": "https://react.email/static/covers/container.png"
 ---
 
-## Install
+#### Example Code
 
-Install component from your command line.
-
-<CodeGroup>
-
-```sh npm
-npm install @react-email/container -E
-```
-
-```sh yarn
-yarn add @react-email/container -E
-```
-
-</CodeGroup>
-
-## Getting started
-
-Add the component to your email template. Include styles where needed.
-
-```jsx
-import { Section } from '@atlr/kit';
+```tsx section.tsx
+import { Section } from "atlr.kit";
 
 const App = () => {
   return (
-     <Section>
-     ...
-     </Section>
+    <Section size="sm" responsive>
+      [ Content ]
+    </Section>
   );
 };
 ```
 
+#### Section Props
+
+<ParamField path="size" type="string | 'sm' | 'md' | 'lg' | 'xl'">
+  The top and bottom padding of the section.
+
+```tsx
+<Container size="sm">....</Container>
+```
+
+</ParamField>
+
+<ParamField path="responsive" type="boolean | default={false}">
+ Sets a responsive section.
+
+```tsx
+<Container responsive>....</Container>
+```
+
+</ParamField>
+
+<ParamField path="hero" type="boolean | default={false}">
+  Renders a hero section with centered content on desktop, left-aligned content on small screen devices.
+
+```tsx
+<Container hero>....</Container>
+```
+
+</ParamField>
+
+<ParamField path="fluid" type="boolean | default={false}">
+ Sets the section up to be smooth responsive.
+
+```tsx
+<Container fluid>....</Container>
+```
+
+</ParamField>
+
+<ParamField path="optimal" type="boolean">
+.....
+
+```tsx
+<Container optimal>....</Container>
+```
+
+</ParamField>
+
+<ParamField path="css" type="style prop">
+Custom CSS prop, to apply your own custom styles.
+
+```tsx
+<Section css={{ maxWidth: "300px" }}>....</Section>
+```
+
+</ParamField>
