@@ -143,13 +143,13 @@ __metadata:
   linkType: hard
 
 "@octokit/endpoint@npm:^7.0.0":
-  version: 7.0.4
-  resolution: "@octokit/endpoint@npm:7.0.4"
+  version: 7.0.5
+  resolution: "@octokit/endpoint@npm:7.0.5"
   dependencies:
     "@octokit/types": ^9.0.0
     is-plain-object: ^5.0.0
     universal-user-agent: ^6.0.0
-  checksum: bc2d8075d971c6ead8e02f5910abeda72c03d67e3823a92c50eafac7f58a1cd628190b230bc4e6d75c2e8d394d4857df383adcc36de183ddef874b3e85124792
+  checksum: 81c9e9eabf50e48940cceff7c4d7fbc9327190296507cfe8a199ea00cd492caf8f18a841caf4e3619828924b481996eb16091826db6b5a649bee44c8718ecaa9
   languageName: node
   linkType: hard
 
@@ -355,11 +355,11 @@ __metadata:
   linkType: hard
 
 "acorn@npm:^8.0.0":
-  version: 8.8.1
-  resolution: "acorn@npm:8.8.1"
+  version: 8.8.2
+  resolution: "acorn@npm:8.8.2"
   bin:
     acorn: bin/acorn
-  checksum: 4079b67283b94935157698831967642f24a075c52ce3feaaaafe095776dfbe15d86a1b33b1e53860fc0d062ed6c83f4284a5c87c85b9ad51853a01173da6097f
+  checksum: f790b99a1bf63ef160c967e23c46feea7787e531292bb827126334612c234ed489a0dc2c7ba33156416f0ffa8d25bf2b0fdb7f35c2ba60eb3e960572bece4001
   languageName: node
   linkType: hard
 
@@ -516,13 +516,13 @@ __metadata:
   linkType: hard
 
 "axios@npm:^1.2.2":
-  version: 1.2.3
-  resolution: "axios@npm:1.2.3"
+  version: 1.2.4
+  resolution: "axios@npm:1.2.4"
   dependencies:
     follow-redirects: ^1.15.0
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
-  checksum: 52802a1e317e8a6fd2c014aa06a6978ea8381142c98e91f2be5e9e213b77b541451e588e17a3d6db2d6e76faea82911239ca4981d7af959d67fb66018dab3ac9
+  checksum: 3454248d72028d69e90e348542140136c1226b448529e78beae5b88e65d6c67f85a3d0eb49f089b338cb54f173671b585c95ef3339f3cb28286eb2878fe47880
   languageName: node
   linkType: hard
 
@@ -1089,10 +1089,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"devtools-protocol@npm:0.0.1068969":
-  version: 0.0.1068969
-  resolution: "devtools-protocol@npm:0.0.1068969"
-  checksum: 53b9c8d661e4148eaf8e990f03902fb3a2cceb06044f661013b6c92dd48ece397ef49fd18401775823c9a33069b4b535502f2559d4f99c74a6bdcb71582b6c8a
+"devtools-protocol@npm:0.0.1082910":
+  version: 0.0.1082910
+  resolution: "devtools-protocol@npm:0.0.1082910"
+  checksum: 62b95b58f33c09412ea715826a184b81f5afe10c63945d444bf18f8455b0eaf16e5a4c4aa0a1f797f710e36b8e2d31c32938084371967662a51043fa9ebddd80
   languageName: node
   linkType: hard
 
@@ -1485,14 +1485,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^10.1.0":
-  version: 10.1.0
-  resolution: "fs-extra@npm:10.1.0"
+"fs-extra@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "fs-extra@npm:11.1.0"
   dependencies:
     graceful-fs: ^4.2.0
     jsonfile: ^6.0.1
     universalify: ^2.0.0
-  checksum: dc94ab37096f813cc3ca12f0f1b5ad6744dfed9ed21e953d72530d103cea193c2f81584a39e9dee1bea36de5ee66805678c0dddc048e8af1427ac19c00fffc50
+  checksum: 5ca476103fa1f5ff4a9b3c4f331548f8a3c1881edaae323a4415d3153b5dc11dc6a981c8d1dd93eec8367ceee27b53f8bd27eecbbf66ffcdd04927510c171e7f
   languageName: node
   linkType: hard
 
@@ -3034,8 +3034,8 @@ __metadata:
   linkType: hard
 
 "mintlify@npm:^2.0.14":
-  version: 2.0.14
-  resolution: "mintlify@npm:2.0.14"
+  version: 2.0.15
+  resolution: "mintlify@npm:2.0.15"
   dependencies:
     "@apidevtools/swagger-parser": ^10.1.0
     "@mintlify/validation": ^0.1.4
@@ -3045,7 +3045,7 @@ __metadata:
     cheerio: ^0.22.0
     chokidar: ^3.5.3
     favicons: ^7.0.1
-    fs-extra: ^10.1.0
+    fs-extra: ^11.1.0
     gray-matter: ^4.0.3
     inquirer: ^9.1.0
     is-absolute-url: ^4.0.1
@@ -3065,7 +3065,7 @@ __metadata:
     yargs: ^17.6.0
   bin:
     mintlify: bin/index.js
-  checksum: 9c770aa8022139be9948cb2a14867b10a6c5afc38b67e64e13b200047421894a7fe22168d5c2cb0c80b03d062aa32b220a0335a20be6fcce075c5799e2876dcb
+  checksum: 482bcb69d1d36e3bd51224976c85c3eb804353bb145d2efb84e8e73ad4293091b9e7583ce84e04335d338cee23ceeaffc926ebb408fdd32269728414ccdb5ba3
   languageName: node
   linkType: hard
 
@@ -3480,13 +3480,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"puppeteer-core@npm:19.5.2":
-  version: 19.5.2
-  resolution: "puppeteer-core@npm:19.5.2"
+"puppeteer-core@npm:19.6.0":
+  version: 19.6.0
+  resolution: "puppeteer-core@npm:19.6.0"
   dependencies:
     cross-fetch: 3.1.5
     debug: 4.3.4
-    devtools-protocol: 0.0.1068969
+    devtools-protocol: 0.0.1082910
     extract-zip: 2.0.1
     https-proxy-agent: 5.0.1
     proxy-from-env: 1.1.0
@@ -3494,20 +3494,20 @@ __metadata:
     tar-fs: 2.1.1
     unbzip2-stream: 1.4.3
     ws: 8.11.0
-  checksum: f9b05252f98655f211d20eeffbbe74187830f8e9110ccf6874a12be8f04b6862edda0b5ed71b25c868c3d22f82317cf066fe798035f9103a63319bc9ef6f4928
+  checksum: 82927bc285c9e48e1036ffe1c345c85c9edbd49498577b21990a80c53d1b8b9415317841f63d0e56ee8babefc41325d0b6f4d7167785401924749752eae9bdda
   languageName: node
   linkType: hard
 
 "puppeteer@npm:^19.4.0":
-  version: 19.5.2
-  resolution: "puppeteer@npm:19.5.2"
+  version: 19.6.0
+  resolution: "puppeteer@npm:19.6.0"
   dependencies:
     cosmiconfig: 8.0.0
     https-proxy-agent: 5.0.1
     progress: 2.0.3
     proxy-from-env: 1.1.0
-    puppeteer-core: 19.5.2
-  checksum: 64559112d3c2215c17e1aa2033f862a6d0d5c3b26d31f2eb32d04c16ef8d101e13c2196d1a77b89ede7e6eca0ad77cf473bae73ff7f10e7d83543812405f4269
+    puppeteer-core: 19.6.0
+  checksum: 8f776dbde26f9bfffc466a75584f0a7b4d7578283f19fb90ac0bc66374e0df0c12f1acd4879530f30fce67c3b5f4f4254c58d1e5679af460266203d4737957e7
   languageName: node
   linkType: hard
 
@@ -4113,9 +4113,9 @@ __metadata:
   linkType: hard
 
 "unist-util-is@npm:^5.0.0":
-  version: 5.1.1
-  resolution: "unist-util-is@npm:5.1.1"
-  checksum: e8743a19a304d8a8f5684f3e5ddb5546f2655847b42123687277d76566a2aba89beb7b4a8a9e9ebc4d904cd1cecc285356d7923d973a43cfc19a1e10ff6bdee4
+  version: 5.2.0
+  resolution: "unist-util-is@npm:5.2.0"
+  checksum: b80debe1ce5d40a8d685c510f597e5c8b8f7089540e9e268bda1b05bcce735c10bf36d5b0e4ecded50c63fa43b8a11b0e4b784beecf1559f153a2f2855e8526c
   languageName: node
   linkType: hard
 
@@ -4129,42 +4129,42 @@ __metadata:
   linkType: hard
 
 "unist-util-remove-position@npm:^4.0.0":
-  version: 4.0.1
-  resolution: "unist-util-remove-position@npm:4.0.1"
+  version: 4.0.2
+  resolution: "unist-util-remove-position@npm:4.0.2"
   dependencies:
     "@types/unist": ^2.0.0
     unist-util-visit: ^4.0.0
-  checksum: 7d2808662ac65f2b2f615822b78060419f738fb3b074b10cec77c596ea966b8f5c47553d2d322822a5975c49d2b21cdd64c198ae9fb02a9d54d1afa6342cdd6a
+  checksum: 989831da913d09a82a99ed9b47b78471b6409bde95942cde47e09da54b7736516f17e3c7e026af468684c1efcec5fb52df363381b2f9dc7fd96ce791c5a2fa4a
   languageName: node
   linkType: hard
 
 "unist-util-stringify-position@npm:^3.0.0":
-  version: 3.0.2
-  resolution: "unist-util-stringify-position@npm:3.0.2"
+  version: 3.0.3
+  resolution: "unist-util-stringify-position@npm:3.0.3"
   dependencies:
     "@types/unist": ^2.0.0
-  checksum: 2dfd7a0fb2a55e99cc319c3bf7f9f1f73ed652978fa70d19117faa7245d20f21738ec926ecc47f341705ca1bb157e87ced0b6bb5ecaa666bd2ae6b2510d6a671
+  checksum: dbd66c15183607ca942a2b1b7a9f6a5996f91c0d30cf8966fb88955a02349d9eefd3974e9010ee67e71175d784c5a9fea915b0aa0b0df99dcb921b95c4c9e124
   languageName: node
   linkType: hard
 
 "unist-util-visit-parents@npm:^5.0.0, unist-util-visit-parents@npm:^5.1.1":
-  version: 5.1.1
-  resolution: "unist-util-visit-parents@npm:5.1.1"
+  version: 5.1.3
+  resolution: "unist-util-visit-parents@npm:5.1.3"
   dependencies:
     "@types/unist": ^2.0.0
     unist-util-is: ^5.0.0
-  checksum: c699d18f5b26461dee37612b84c243fd5457c98f4c0540d9ba8bee05062aece5f3b4fb1af6b07423ce6750d8926e8c01fc2b1a4de1e54925ef6795c177ed8e18
+  checksum: 8ecada5978994f846b64658cf13b4092cd78dea39e1ba2f5090a5de842ba4852712c02351a8ae95250c64f864635e7b02aedf3b4a093552bb30cf1bd160efbaa
   languageName: node
   linkType: hard
 
 "unist-util-visit@npm:^4.0.0, unist-util-visit@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "unist-util-visit@npm:4.1.1"
+  version: 4.1.2
+  resolution: "unist-util-visit@npm:4.1.2"
   dependencies:
     "@types/unist": ^2.0.0
     unist-util-is: ^5.0.0
     unist-util-visit-parents: ^5.1.1
-  checksum: c4a63734b0a5b439c62d20901bb472bdafdbbcd80c383e254aedeb98b23d0bae815a331e776ce7d63ea3c8018a54318abb8709d07cdf7dd094f79b2f07bb39f0
+  checksum: 95a34e3f7b5b2d4b68fd722b6229972099eb97b6df18913eda44a5c11df8b1e27efe7206dd7b88c4ed244a48c474a5b2e2629ab79558ff9eb936840295549cee
   languageName: node
   linkType: hard
 
@@ -4302,13 +4302,13 @@ __metadata:
   linkType: hard
 
 "wrap-ansi@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "wrap-ansi@npm:8.0.1"
+  version: 8.1.0
+  resolution: "wrap-ansi@npm:8.1.0"
   dependencies:
     ansi-styles: ^6.1.0
     string-width: ^5.0.1
     strip-ansi: ^7.0.1
-  checksum: 5d7816e64f75544e466d58a736cb96ca47abad4ad57f48765b9735ba5601221013a37f436662340ca159208b011121e4e030de5a17180c76202e35157195a71e
+  checksum: 371733296dc2d616900ce15a0049dca0ef67597d6394c57347ba334393599e800bab03c41d4d45221b6bc967b8c453ec3ae4749eff3894202d16800fdfe0e238
   languageName: node
   linkType: hard
 

@@ -2,14 +2,14 @@
     "$schema": "https://mintlify.com/schema.json",
     "name": "Atelier® Kit",
     "logo": {
-        "dark": "/logo/dark.svg",
-        "light": "/logo/light.svg"
+        "dark": "/images/dark.svg",
+        "light": "/images/light.svg"
     },
 
-    "favicon": "/favicon.png",
+    "favicon": "/images/favicon.png",
 
     "colors": {
-        "primary": "#BE5BF1",
+        "primary": "#CA60FF",
         "light": "#BA8FF7",
         "dark": "#9113A4",
         "background": {
@@ -17,8 +17,8 @@
         }
     },
     "topbarLinks": [{
-            "name": "Documentation",
-            "url": "https://docs.atlrdsgn.com"
+            "name": "Website",
+            "url": "https://www.atlrdsgn.com"
         },
         {
             "name": "Twitter",
@@ -43,8 +43,8 @@
     "navigation": [{
             "group": "Home",
             "pages": [
-                "introduction",
-                "install",
+                "atart/introduction",
+                "start/install",
                 "primitives/components"
             ]
         },
@@ -52,16 +52,17 @@
         {
             "group": "Primitives",
             "pages": [
+                "primitives/primitives",
                 "primitives/accordion",
                 "primitives/button",
-                "primitives/switch",
                 "primitives/container",
-                "primitives/section"
+                "primitives/section",
+                "primitives/switch"
             ]
         },
         {
             "group": "Learn More",
-            "pages": ["features", "resources"]
+            "pages": ["_other/features", "_other/resources"]
         }
     ],
     "footerSocials": {
