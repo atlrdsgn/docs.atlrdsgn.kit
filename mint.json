@@ -59,6 +59,7 @@
                 "primitives/container",
                 "primitives/pass.link",
                 "primitives/section",
+                "primitives/select",
                 "primitives/switch"
             ]
         },
