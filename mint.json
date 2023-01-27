@@ -60,9 +60,12 @@
                 "primitives/checkbox",
                 "primitives/menu.bar",
                 "primitives/pass.link",
+                "primitives/radio.group",
                 "primitives/section",
                 "primitives/select",
-                "primitives/switch"
+                "primitives/switch",
+                "primitives/tabs",
+                "primitives/toggle.group"
             ]
         },
         {
