@@ -109,3 +109,23 @@ style={{width: '100%', height: '400px', border: '2px solid #be5bf1', borderRadiu
 [![Edit menu-bar-v0.2.6](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/menu-bar-v0-2-6-27ypsd?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light)
 
 https://codesandbox.io/embed/menu-bar-v0-2-6-27ypsd?
+
+### Checkbox
+
+kit-checkbox-uyf6rm?
+
+<iframe
+  src="https://codesandbox.io/embed/kit-checkbox-uyf6rm?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light"
+  style={{
+    width: "100%",
+    height: "300px",
+    border: "2px solid #EAFF97",
+    borderRadius: "12px",
+    overflow: "hidden",
+  }}
+  title="Button-0.2.1"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
+
+[![Edit kit.checkbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/kit-checkbox-uyf6rm?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light)
