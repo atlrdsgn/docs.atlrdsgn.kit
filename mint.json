@@ -57,6 +57,7 @@
                 "primitives/app.bar",
                 "primitives/button",
                 "primitives/container",
+                "primitives/menu.bar",
                 "primitives/pass.link",
                 "primitives/section",
                 "primitives/select",

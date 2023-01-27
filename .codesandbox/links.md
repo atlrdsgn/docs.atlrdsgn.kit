@@ -34,10 +34,6 @@ sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-ori
 
 [![Edit accordion-v0.2.1](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/accordion-v0-2-1-13l8gq?hidedevtools=1&hidenavigation=1&fontsize=14&view=preview&theme=dark)
 
-
-
-
-
 ### Button
 
 https://codesandbox.io/embed/button-v0-2-1-dl8omw?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light
@@ -52,9 +48,6 @@ sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-ori
 
 [![Edit Button-0.2.1](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/embed/button-v0-2-1-dl8omw?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light)
 
-
-
-
 ### Switch
 
 https://codesandbox.io/embed/switch-v0-2-1-fqfe0b?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light
@@ -67,11 +60,7 @@ title="Button-0.2.1"
 allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
 sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" />
 
-
-
 ### PassLink
-
-
 
 https://codesandbox.io/s/pass-link-v0-2-1-2k2z6x?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light
 
@@ -85,21 +74,17 @@ title="pass.link-v0.2.1"
 allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
 sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" />
 
-
 ### Appbar
 
 https://codesandbox.io/embed/appbar-v0-2-1-86m483?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light
 
-
 [![Edit appbar-v0.2.1](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/embed/appbar-v0-2-1-86m483?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light)
-
 
 <iframe src="https://codesandbox.io/embed/appbar-v0-2-1-86m483?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light"
 style={{width: '100%', height: '300px', border: '2px solid #be5bf1', borderRadius: '12px', overflow: 'hidden'}}
 title="appbar-v0.2.1"
 allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
 sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" />
-
 
 ### Select
 
@@ -110,4 +95,17 @@ style={{width: '100%', height: '400px', border: '2px solid #be5bf1', borderRadiu
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    />
 
-   [![Edit select-v0.2.3](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/select-v0-2-3-ewvyg5?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light)
+[![Edit select-v0.2.3](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/select-v0-2-3-ewvyg5?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light)
+
+### MenuBar
+
+<iframe src="https://codesandbox.io/embed/menu-bar-v0-2-6-27ypsd?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light"
+style={{width: '100%', height: '400px', border: '2px solid #be5bf1', borderRadius: '12px', overflow: 'hidden'}}
+     title="select-v0.2.3"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   />
+
+[![Edit menu-bar-v0.2.6](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/menu-bar-v0-2-6-27ypsd?autoresize=1&hidedevtools=1&hidenavigation=1&fontsize=10&view=preview&theme=light)
+
+https://codesandbox.io/embed/menu-bar-v0-2-6-27ypsd?
