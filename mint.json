@@ -59,6 +59,7 @@
                 "primitives/container",
                 "primitives/checkbox",
                 "primitives/menu.bar",
+                "primitives/nav.menu",
                 "primitives/pass.link",
                 "primitives/radio.group",
                 "primitives/section",
