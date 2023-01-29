@@ -52,11 +52,12 @@
         {
             "group": "Primitives",
             "pages": [
-                "primitives/primitives",
+                "primitives/begin",
                 "primitives/accordion",
                 "primitives/app.bar",
                 "primitives/button",
                 "primitives/container",
+                "primitives/copy.text",
                 "primitives/checkbox",
                 "primitives/menu.bar",
                 "primitives/nav.menu",
