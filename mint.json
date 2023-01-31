@@ -54,6 +54,7 @@
                 "primitives/begin",
                 "primitives/accordion",
                 "primitives/app.bar",
+                "primitives/badge",
                 "primitives/button",
                 "primitives/container",
                 "primitives/copy.text",
