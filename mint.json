@@ -42,11 +42,7 @@
     ],
     "navigation": [{
             "group": "Index",
-            "pages": [
-                "start/introduction",
-                "_other/features",
-                "start/install"
-            ]
+            "pages": ["start/introduction", "_other/features", "start/install"]
         },
         {
             "group": "Primitives",
@@ -72,7 +68,12 @@
         },
         {
             "group": "Learn More",
-            "pages": ["_other/resources", "_other/faq", "primitives/components", "_other/roadmap"]
+            "pages": [
+                "_other/resources",
+                "_other/faq",
+                "primitives/components",
+                "_other/roadmap"
+            ]
         }
     ],
     "footerSocials": {
