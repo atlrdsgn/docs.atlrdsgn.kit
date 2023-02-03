@@ -1,84 +1,88 @@
 {
-    "$schema": "https://mintlify.com/schema.json",
-    "name": "Atelier® Kit",
-    "logo": {
-        "dark": "/images/dark.svg",
-        "light": "/images/light.svg"
-    },
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Atelier® Kit",
+  "logo": {
+    "dark": "/images/dark.svg",
+    "light": "/images/light.svg"
+  },
 
-    "favicon": "/images/favicon.png",
+  "favicon": "/images/favicon.png",
 
-    "colors": {
-        "primary": "#CA60FF",
-        "light": "#BA8FF7",
-        "dark": "#9113A4",
-        "background": {
-            "dark": "#1D1D1D"
-        }
-    },
-    "topbarLinks": [{
-            "name": "Website",
-            "url": "https://www.atlrdsgn.com"
-        },
-        {
-            "name": "Twitter",
-            "url": "https://twitter.com/atlrdsgn"
-        }
-    ],
-    "topbarCtaButton": {
-        "name": "GitHub",
-        "url": "https://github.com/atlrdsgn/atelier.kit"
-    },
-    "anchors": [{
-            "name": "Community",
-            "icon": "twitter",
-            "url": "https://twitter.com/atlrdsgn"
-        },
-        {
-            "name": "GitHub",
-            "icon": "github",
-            "url": "https://github.com/atlrdsgn"
-        }
-    ],
-    "navigation": [{
-            "group": "Index",
-            "pages": ["start/introduction", "_other/features", "start/install"]
-        },
-        {
-            "group": "Primitives",
-            "pages": [
-                "primitives/begin",
-                "primitives/accordion",
-                "primitives/app.bar",
-                "primitives/badge",
-                "primitives/button",
-                "primitives/container",
-                "primitives/copy.text",
-                "primitives/checkbox",
-                "primitives/menu.bar",
-                "primitives/nav.menu",
-                "primitives/pass.link",
-                "primitives/radio.group",
-                "primitives/section",
-                "primitives/select",
-                "primitives/switch",
-                "primitives/tabs",
-                "primitives/toggle.group"
-            ]
-        },
-        {
-            "group": "Learn More",
-            "pages": [
-                "_other/resources",
-                "_other/faq",
-                "primitives/components",
-                "_other/roadmap"
-            ]
-        }
-    ],
-    "footerSocials": {
-        "twitter": "https://twitter.com/atlrdsgn",
-        "github": "https://github.com/atlrdsgn",
-        "instagram": "https://instagram.com/atlr.dsgn"
+  "colors": {
+    "primary": "#CA60FF",
+    "light": "#BA8FF7",
+    "dark": "#9113A4",
+    "background": {
+      "dark": "#1D1D1D"
     }
+  },
+  "topbarLinks": [
+    {
+      "name": "Website",
+      "url": "https://www.atlrdsgn.com"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/atlrdsgn"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "GitHub",
+    "url": "https://github.com/atlrdsgn/atelier.kit"
+  },
+  "anchors": [
+    {
+      "name": "Community",
+      "icon": "twitter",
+      "url": "https://twitter.com/atlrdsgn"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/atlrdsgn"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Index",
+      "pages": ["start/introduction", "_other/features", "start/install"]
+    },
+    {
+      "group": "Primitives",
+      "pages": [
+        "primitives/begin",
+        "primitives/accordion",
+        "primitives/app.bar",
+        "primitives/avatar",
+        "primitives/badge",
+        "primitives/button",
+        "primitives/container",
+        "primitives/copy.text",
+        "primitives/checkbox",
+        "primitives/menu.bar",
+        "primitives/nav.menu",
+        "primitives/pass.link",
+        "primitives/radio.group",
+        "primitives/section",
+        "primitives/select",
+        "primitives/switch",
+        "primitives/tabs",
+        "primitives/toggle.group"
+      ]
+    },
+    {
+      "group": "Learn More",
+      "pages": [
+        "_other/resources",
+        "_other/faq",
+        "primitives/components",
+        "_other/roadmap"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/atlrdsgn",
+    "github": "https://github.com/atlrdsgn",
+    "instagram": "https://instagram.com/atlr.dsgn"
+  }
 }
